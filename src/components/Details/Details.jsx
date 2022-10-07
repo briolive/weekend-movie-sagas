@@ -5,8 +5,12 @@ function Details() {
     const dispatch = useDispatch();
     const movies = useSelector(store => store.movies);
     const genres = useSelector(store => store.genres);
-    
-    return
+    const selectedMovie = useSelector(store => store.selectedMovie);
+
+    return (
+        <h1>Movie Detail</h1>
+
+    )
 }
 
 
